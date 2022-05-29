@@ -1,0 +1,8 @@
+src/nuxt-first/node_modules
+src/nuxt-first/*.log*
+src/nuxt-first/.nuxt
+src/nuxt-first/.nitro
+src/nuxt-first/.cache
+src/nuxt-first/.output
+src/nuxt-first/.env
+src/nuxt-first/dist

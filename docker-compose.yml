@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    build: .
+    command: yarn dev -p 3000
+    volumes:
+      - ./src:/src:cached
+    working_dir: "/src/nuxt-first"
+    ports:
+      - "3000:3000"
+      - "24678:24678"
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - NODE_ENV=development
+
