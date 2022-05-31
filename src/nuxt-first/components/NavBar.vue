@@ -9,3 +9,9 @@
     </nav>
   </div>
 </template>
+
+<style scoped>
+  a{
+    margin-right: 1%
+  }
+</style>
