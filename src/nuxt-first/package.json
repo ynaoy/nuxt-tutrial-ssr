@@ -4,14 +4,19 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "test": "nuxi test"
   },
   "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.3-27567768.c1f728e",
+    "jsdom": "^19.0.0",
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
     "@types/node": "^17.0.36",
     "axios": "^0.27.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "v-tooltip": "^2.1.3"
   }
 }
