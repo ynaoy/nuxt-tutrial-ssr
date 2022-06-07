@@ -4,10 +4,12 @@
       <div>count:{{ count }}</div>
       <button @click="addCount">Add</button>
     </div>
-
     <div>
       <h1>Pluginの動作確認</h1>
-      <button v-tooltip="'TOPにメッセージが表示されます'">TOP</button>  
+      <!--
+      << Bug v-tooltipに関しては動作しなかった >>
+      <button v-tooltip="'TOPにメッセージが表示されます'">TOP</button>
+      -->
     </div>
   </NuxtLayout>
 </template>
@@ -18,7 +20,6 @@
   const { count,increment } = useCount()
   const addCount = increment
 
-  //<< Bug v-tooltipに関しては動作しなかった >>
   const { $hello } = useNuxtApp()
   onMounted( $hello("mounted") )
 </script>

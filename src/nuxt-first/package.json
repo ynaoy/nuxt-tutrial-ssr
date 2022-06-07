@@ -8,9 +8,11 @@
     "test": "nuxi test"
   },
   "devDependencies": {
-    "@nuxt/test-utils-edge": "^3.0.0-rc.3-27567768.c1f728e",
+    "@nuxt/test-utils-edge": "^3.0.0-rc.3-27571095.9379606",
+    "@vue/test-utils": "^2.0.0",
     "jsdom": "^19.0.0",
-    "nuxt": "3.0.0-rc.3"
+    "nuxt": "3.0.0-rc.3",
+    "vitest": "^0.14.1"
   },
   "dependencies": {
     "@types/node": "^17.0.36",
